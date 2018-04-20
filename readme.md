@@ -1,3 +1,7 @@
+# ethereum-cheat-sheet
+ethereum cheat sheet
+
+
 
 
 using geth console 
@@ -23,6 +27,7 @@ geth --rpc --rpccorsdomain "https://remix.ethereum.org"  --datadir eth-data  --n
 ********** with account mining
 
 geth --rpc --rpccorsdomain "https://remix.ethereum.org"  --datadir eth-data  --networkid 12345 --unlock 0 --mine 1
+
 
 
 

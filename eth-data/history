@@ -1,3 +1,11 @@
 eth.accounts
 eth.accounts[0]
 miner.start(1)
+eht
+eth
+eth.accounts
+admin.nodeInfo
+eth.accounts
+admin.addPeer
+admin.nodeInfo
+eth.blockNumber

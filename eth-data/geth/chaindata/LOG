@@ -63,3 +63,76 @@
 18:07:09.319784 table@remove removed @12
 18:07:09.357129 table@remove removed @9
 18:07:09.367041 table@remove removed @8
+=============== Apr 24, 2018 (IST) ===============
+12:20:27.239285 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:20:27.278514 version@stat F·[0 1] S·34KiB[0B 34KiB] Sc·[0.00 0.00]
+12:20:27.278706 db@open opening
+12:20:27.278969 journal@recovery F·1
+12:20:27.285664 journal@recovery recovering @13
+12:20:27.517532 memdb@flush created L0@16 N·54369 S·2MiB "B\x00\x00..|\xb5\x9b,v39226":"r\x00\x00..oMO,v55077"
+12:20:27.525429 version@stat F·[1 1] S·2MiB[2MiB 34KiB] Sc·[0.25 0.00]
+12:20:27.643204 db@janitor F·4 G·0
+12:20:27.643284 db@open done T·364.559149ms
+12:20:27.776195 table@compaction L0·1 -> L1·1 S·2MiB Q·55083
+12:20:27.882618 table@build created L1@19 N·37410 S·1MiB "\x18j\xf3..\xaa\xf9\xab,v698":"\xe9\xea\x92..\xce#2,v704"
+12:20:27.882704 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+12:20:27.883073 table@compaction committed F-1 S-711KiB Ke·0 D·17441 T·106.801777ms
+12:20:27.883618 table@remove removed @16
+12:20:27.912184 table@remove removed @15
+12:23:20.419556 db@close closing
+12:23:20.431968 db@close done T·12.404815ms
+=============== Apr 24, 2018 (IST) ===============
+12:23:28.714758 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:23:28.735680 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+12:23:28.735740 db@open opening
+12:23:28.735913 journal@recovery F·1
+12:23:28.740900 journal@recovery recovering @17
+12:23:28.749644 memdb@flush created L0@20 N·2 S·243B "Blo..ion,v55083":"Las..der,v55084"
+12:23:28.756342 version@stat F·[1 1] S·1MiB[243B 1MiB] Sc·[0.25 0.02]
+12:23:28.758350 db@janitor F·4 G·0
+12:23:28.758413 db@open done T·22.640059ms
+12:23:28.972563 table@compaction L0·1 -> L1·1 S·1MiB Q·55086
+12:23:29.068768 table@build created L1@23 N·37410 S·1MiB "\x18j\xf3..\xaa\xf9\xab,v698":"\xe9\xea\x92..\xce#2,v704"
+12:23:29.068860 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+12:23:29.116236 table@compaction committed F-1 S-243B Ke·0 D·2 T·143.590205ms
+12:23:29.116403 table@remove removed @20
+12:23:29.116714 table@remove removed @19
+12:31:23.142547 db@close closing
+12:31:23.143054 db@close done T·503.921µs
+=============== Apr 24, 2018 (IST) ===============
+12:32:13.730057 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:32:13.738489 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+12:32:13.738554 db@open opening
+12:32:13.738696 journal@recovery F·1
+12:32:13.743702 journal@recovery recovering @21
+12:32:13.747407 memdb@flush created L0@24 N·2 S·243B "Blo..ion,v55086":"Las..der,v55087"
+12:32:13.779548 version@stat F·[1 1] S·1MiB[243B 1MiB] Sc·[0.25 0.02]
+12:32:13.797579 db@janitor F·4 G·0
+12:32:13.797652 db@open done T·59.073538ms
+12:32:13.927209 table@compaction L0·1 -> L1·1 S·1MiB Q·55089
+12:32:14.003893 table@build created L1@27 N·37410 S·1MiB "\x18j\xf3..\xaa\xf9\xab,v698":"\xe9\xea\x92..\xce#2,v704"
+12:32:14.004010 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+12:32:14.004314 table@compaction committed F-1 S-243B Ke·0 D·2 T·77.042292ms
+12:32:14.004585 table@remove removed @24
+12:32:14.004932 table@remove removed @23
+16:58:03.266409 db@close closing
+16:58:03.266759 db@close done T·346.629µs
+=============== Apr 24, 2018 (IST) ===============
+16:59:04.196074 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:59:04.219201 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+16:59:04.219244 db@open opening
+16:59:04.219371 journal@recovery F·1
+16:59:04.224181 journal@recovery recovering @25
+16:59:04.225154 memdb@flush created L0@28 N·2 S·243B "Blo..ion,v55089":"Las..der,v55090"
+16:59:04.229579 version@stat F·[1 1] S·1MiB[243B 1MiB] Sc·[0.25 0.02]
+16:59:04.260488 db@janitor F·4 G·0
+16:59:04.260545 db@open done T·41.282218ms
+16:59:04.479745 table@compaction L0·1 -> L1·1 S·1MiB Q·55092
+16:59:04.538314 table@build created L1@31 N·37410 S·1MiB "\x18j\xf3..\xaa\xf9\xab,v698":"\xe9\xea\x92..\xce#2,v704"
+16:59:04.538411 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+16:59:04.556336 table@compaction committed F-1 S-243B Ke·0 D·2 T·76.524697ms
+16:59:04.556513 table@remove removed @28
+16:59:04.556995 table@remove removed @27
+=============== Apr 25, 2018 (IST) ===============
+18:19:19.736778 db@close closing
+18:19:19.852913 db@close done T·116.130028ms
